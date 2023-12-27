@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="/">Home</a>
+
+    </nav>
+    <h1>Admin Dashboard</h1>
+
+    <!-- Navigation Cards -->
+    <div class="admin-navigation">
+        <div class="card" onclick="renderSalesEntries()">
+            <h2>Sales Entries</h2>
+            <p>View and manage sales entries.</p>
+        </div>
+        <div class="card" onclick="renderAdminTools()">
+            <h2>Admin Tools</h2>
+            <p>Access various admin tools.</p>
+        </div>
+    </div>
+
+    <!-- Rendered Content Section -->
+    <div id="renderedContent" class="admin-section">
+        <!-- Content will be dynamically rendered here -->
+    </div>
+
+    <script src="admin.js"></script>
+    <script src="admin-render.js"></script>
+</body>
+
+</html>

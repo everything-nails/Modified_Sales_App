@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <!-- Add the Admin link to the navbar -->
+        <a href="#" onclick="openAdminModal()">Admin</a>
+    </nav>
+    <h2>Everything Nails and Spa Sales Entry Form</h2>
+
+    <form id="salesForm" action="/submit" method="post">
+        <div class="group">
+            <label for="employee_name">Employee Name:</label>
+
+
+            <div class="input_group">
+                <input type="text" name="employee_name" id="eName" required>
+            </div>
+        </div>
+        </div>
+
+        <div class="group">
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" required>
+        </div>
+
+        <div class="group">
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" required>
+        </div>
+
+        <div class="group">
+            <label>Service Purchased:</label>
+            <div class="checkbox-group" id="servicesContainer">
+
+            </div>
+        </div>
+
+        <div class="group">
+            <label for="totalCost">Total Cost (GHS):</label>
+            <input type="number" id="totalCost" required>
+        </div>
+
+        <div class="group">
+            <label for="paymentMode">Payment Mode:</label>
+            <select id="paymentMode" required>
+                <option value="Cash">Cash</option>
+                <option value="eCash">eCash</option>
+            </select>
+        </div>
+
+        <div class="group" id="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <div class="entries">
+        <h3>Sales Entries</h3>
+        <table border="1">
+            <tr>
+                <th>Receptionist</th>
+                <th>Customer Name</th>
+                <th>Phone Number</th>
+                <th>Service Purchased</th>
+                <th>Total Cost (GHS)</th>
+                <th>Payment Mode</th>
+            </tr>
+        </table>
+        <div id="download-container"></div>
+        <!-- The Admin Modal -->
+   
+
+    </div>
+    <div id="adminModal">
+        <div id="adminModalContent">
+            <span class="close" onclick="closeAdminModal()">&times;</span>
+            <h2>Admin Login</h2>
+            <form id="adminLoginForm">
+                <label for="adminUsername">Username:</label>
+                <input type="text" id="adminUsername" required>
+                <br>
+                <label for="adminPassword">Password:</label>
+                <input type="password" id="adminPassword" required>
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./render.js"></script>
+
+</body>
+
+</html>

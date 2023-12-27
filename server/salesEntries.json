@@ -1,0 +1,152 @@
+{
+  "entries": [
+    {
+      "receptionist": "Edwina",
+      "customerName": "Angelina",
+      "phoneNumber": "0241497947",
+      "services": [
+        "Nails"
+      ],
+      "totalCost": "300",
+      "paymentMode": "eCash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Lois",
+      "phoneNumber": "0201262189",
+      "services": [
+        "Nails"
+      ],
+      "totalCost": "250",
+      "paymentMode": "eCash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Adelaide",
+      "phoneNumber": "0205897344",
+      "services": [
+        "Nails",
+        "Pedicure"
+      ],
+      "totalCost": "230",
+      "paymentMode": "eCash"
+    },
+    {
+      "receptionist": "Allen",
+      "customerName": "Sybil",
+      "phoneNumber": "0256945277",
+      "services": [
+        "Nails"
+      ],
+      "totalCost": "580",
+      "paymentMode": "eCash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Sandra",
+      "phoneNumber": "0541526779",
+      "services": [
+        "Nails"
+      ],
+      "totalCost": "220",
+      "paymentMode": "Cash"
+    },
+    {
+      "receptionist": "Allen",
+      "customerName": "Amaki",
+      "phoneNumber": "0244209052",
+      "services": [
+        "Nails"
+      ],
+      "totalCost": "350",
+      "paymentMode": "eCash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Serwaa",
+      "phoneNumber": "0268750196",
+      "services": [
+        "Nails"
+      ],
+      "totalCost": "100",
+      "paymentMode": "Cash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Sarah",
+      "phoneNumber": "0508293617",
+      "services": [
+        "Nails",
+        "Pedicure"
+      ],
+      "totalCost": "270",
+      "paymentMode": "eCash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Gloria Addo",
+      "phoneNumber": "233209101909",
+      "services": [
+        "Nails",
+        "Pedicure"
+      ],
+      "totalCost": "600",
+      "paymentMode": "Cash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Esther",
+      "phoneNumber": "233540801651",
+      "services": [
+        "Nails",
+        "Pedicure"
+      ],
+      "totalCost": "650",
+      "paymentMode": "eCash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Ama",
+      "phoneNumber": "0536217908",
+      "services": [
+        "Nails",
+        "Pedicure"
+      ],
+      "totalCost": "580",
+      "paymentMode": "eCash"
+    }
+  ]
+  "entries": [
+    {
+      "receptionist": "Edwina",
+      "customerName": "Angelina",
+      "phoneNumber": "0241497947",
+      "services": [
+        "Nails"
+      ],
+      "totalCost": "300",
+      "paymentMode": "eCash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Lois",
+      "phoneNumber": "0201262189",
+      "services": [
+        "Nails"
+      ],
+      "totalCost": "250",
+      "paymentMode": "eCash"
+    },
+    {
+      "receptionist": "Edwina",
+      "customerName": "Adelaide",
+      "phoneNumber": "0205897344",
+      "services": [
+        "Nails",
+        "Pedicure"
+      ],
+      "totalCost": "230",
+      "paymentMode": "eCash"
+    }
+  ]
+}
